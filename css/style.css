@@ -34,19 +34,37 @@ img:hover {
   background-color: #44cc66;
 }
 
+.container.amiable {}
+
 .indifferent {
   border: 1px solid #aaaa00;
   box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00;
   background-color: #dddd22;
 }
-
+.container.indifferent {
+  
+}
 .dubious {
   border: 1px solid #aa2222;
   box-shadow: -1px 1px #aa2222, -2px 2px #aa2222, -3px 3px #aa2222, -4px 4px #aa2222, -5px 5px #aa2222;
   background-color: #dd4444;
 }
 
-.container-dubious {width: 48%;}
+.container.dubious {
+  float: none; 
+  position: static;
+  /*margin-bottom: 44px;*/
+  width: 48%;
+  height: 45%;
+  bottom: 55%;
+  /*top: 48%;*/
+  display: block;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px; 
+
+  /*column: 2;*/
+}
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
